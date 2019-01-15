@@ -30,8 +30,8 @@ import rosegraphics as rg
 
 def main():
     """ Demonstrates applications of the wait-for-event pattern. """
-    demonstrate_wait_for_circle_to_reach_edge()
-    demonstrate_wait_for_sentinel()
+    #demonstrate_wait_for_circle_to_reach_edge()
+    #demonstrate_wait_for_sentinel()
     demonstrate_wait_for_small_enough_number()
 
 

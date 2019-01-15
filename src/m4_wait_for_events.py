@@ -39,9 +39,9 @@ import math
 def main():
     """ Calls the   TEST   functions in this module. """
     run_test_sum_until_prime_input()
-    run_test_next_prime()
-    run_test_prime_gap()
-    run_test_wait_for_sum_of_cubes()
+    #run_test_next_prime()
+    #run_test_prime_gap()
+    #run_test_wait_for_sum_of_cubes()
 
 
 def is_prime(n):
@@ -102,6 +102,13 @@ def sum_until_prime_input():
     # TODO: 2. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
+    number = int(input('Enter an integer, or 2 to quit'))
+    while number != 2:
+        print()
+
+        number = int(input('Enter an integer, or 2 to quit'))
+    print()
+
 
 
 def run_test_next_prime():
